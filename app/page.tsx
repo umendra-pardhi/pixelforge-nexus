@@ -34,11 +34,11 @@ export default function HomePage() {
       <LoginForm />
 
       {/* Setup link for first-time setup */}
-      <div className="fixed bottom-4 right-4">
+      {/* <div className="fixed bottom-4 right-4">
         <Button variant="outline" size="sm" asChild>
           <Link href="/setup">First Time Setup</Link>
         </Button>
-      </div>
+      </div> */}
     </div>
   )
 }
